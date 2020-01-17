@@ -1,38 +1,40 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+about: Create a report to help us improve the quality of services provided
+title: "[BUG]"
+labels: bug
+assignees: jaszium
 
 ---
-
-**Describe the bug**
+# Cosmetic or Code error
+Choose which type of bug is it?
+If its an aesthetic or UI or design; remove the words "or Code" from above heading.
+Else, if its a function, code, or method; remove the words "Cosmetic or" from above heading.
+Then, remove this line and the 3 lines above it.
+## Description
 A clear and concise description of what the bug is.
-
-**To Reproduce**
+## Recreation
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1) ...
+2) ...
+3) ...
+4) ...
+5) ...
 
-**Expected behavior**
+& so on.
+## Expected behavior
 A clear and concise description of what you expected to happen.
-
-**Screenshots**
+## Screenshots
 If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
+## Computer or Smartphone
+If using a Computer; remove the words "or Smartphone" from above heading.
+Else, is using a Smartphone; remove the words "Computer or" from above heading.
+Then, remove this line and the 2 lines above it. Once finished with the report, then delete the line below.
+Please complete the following information or type "Unknown" for which is not applicable:
+ - Device Name: [e.g. Laptop, Desktop, other] or [e.g. Samsung Galaxy Note 9, iPhone X, Windows Phone 10]
+ - Device OSys: [e.g. Windows 10.1, Linux, Unix, MacOS] or [e.g. Android, Apple, Windows]
+ - BrowserName: [e.g. Chrome, Safari, Firefox, IExplorer, Avast, Torch] or [e.g. App-Default, Safari, Chrome]
+ - Browser Ver: [e.g. 22] or [e.g. 79.0.39.45.116]
+## Additional context
 Add any other context about the problem here.
+Can be as elaborate as possible, in great detail even.
