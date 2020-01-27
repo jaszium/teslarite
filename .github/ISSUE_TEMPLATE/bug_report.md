@@ -6,11 +6,16 @@ labels: bug
 assignees: jaszium
 
 ---
-# Cosmetic or Code error
-Choose which type of bug is it?
-If its an aesthetic or UI or design; remove the words "or Code" from above heading.
-Else, if its a function, code, or method; remove the words "Cosmetic or" from above heading.
-Then, remove this line and the 3 lines above it.
+
+# Type of error
+- [ ] Cosmetic
+    - [ ] Aesthetic ( Color scheme, Font style, etc )
+    - [ ] Design ( Button layouts, Menu type, etc )
+    - [ ] User interface / experience ( UI / UX, etc )
+- [ ] Code
+    - [ ] Code ( ANSI, ASCII, EBCDIC, UTF-8, UTF-16, etc )
+    - [ ] Function ( Tabs, Spaces, Whitespace, Naming of: Vars, Funcs, Elements, etc )
+    - [ ] Method ( Compact, Inline docs, # or // or /**/ Comments, etc )
 ## Description
 A clear and concise description of what the bug is.
 ## Recreation
