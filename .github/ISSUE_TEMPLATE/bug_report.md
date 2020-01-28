@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a report to help us improve the quality of services provided
+about: Create a report to help us improve
 title: "[BUG]"
 labels: bug
 assignees: jaszium
@@ -8,18 +8,45 @@ assignees: jaszium
 ---
 
 # Type of error
-- [ ] Cosmetic
-    - [ ] Aesthetic ( Color scheme, Font style, etc )
-    - [ ] Design ( Button layouts, Menu type, etc )
-    - [ ] User interface / experience ( UI / UX, etc )
-- [ ] Code
-    - [ ] Code ( ANSI, ASCII, EBCDIC, UTF-8, UTF-16, etc )
-    - [ ] Function ( Tabs, Spaces, Whitespace, Naming of: Vars, Funcs, Elements, etc )
-    - [ ] Method ( Compact, Inline docs, # or // or /**/ Comments, etc )
+- [ ] **Cosmetic** (in general):
+    - [ ] Specifically the **aesthetic** (in general):
+        - [ ] Specifically the **colour scheme**
+        - [ ] Specifically the **font style**
+        - [ ] Specifically a **custom aesthetic error** (`Enter text here`)
+    - [ ] Specifically the **design** (in general):
+        - [ ] Specifically the **button layouts**
+        - [ ] Specifically the **menu type**
+        - [ ] Specifically a **custom design error** (`Enter text here`)
+    - [ ] Specifically the **User eXperience - UX** (Output displayed)
+    - [ ] Specifically the **User Interface - UI** (Input options)
+    - [ ] Specifically a **custom cosmetic error** (`Enter text here`)
+- [ ] **Code** (in general):
+    - [ ] Specifically the **encoding** (in general):
+        - [ ] Specifically prefers this single encoding: (ANSI / ASCII / EBCDIC / UTF-8 / UTF-16)
+        - [ ] Specifically the inability to input text in: (codepage number / name of encoding)
+        - [ ] Specifically the text being displayed in: (wrong codepage number / name of wrong encoding)
+        - [ ] Specifically a custom encoding error (`Enter text here`)
+    - [ ] Specifically the **function** (in general):
+        - [ ] Specifically the indentation of code with: (Tabs / Spaces)
+        - [ ] Specifically the amount of whitespace
+        - [ ] Specifically the naming convention of: (Variables / Functions / Elements)
+        - [ ] Specifically the type of sorting algorithm used
+        - [ ] Specifically a custom function error (`Enter text here`)
+    - [ ] Specifically the method (in general):
+        - [ ] Specifically the file length (can / needs to) be: (Compacted / Expanded)
+        - [ ] Specifically the location of documentation : (Inline / Separate file / [GH Wiki](https://github.com/jaszium/teslarite/wiki) / [GH Pages](https://jaszium.github.io/teslarite))
+        - [ ] Specifically the type of comments used: (`#` / `//` / `/**/`)
+        - [ ] 
+        - [ ] Specifically a custom method error (`Enter text here`)
+    - [ ] Specifically a custom code error (`Enter text here`)
+
+
+
+
 ## Description
 A clear and concise description of what the bug is.
 ## Recreation
-Steps to reproduce the behavior:
+Steps to reproduce the behaviour:
 1) ...
 2) ...
 3) ...
@@ -27,7 +54,7 @@ Steps to reproduce the behavior:
 5) ...
 
 & so on.
-## Expected behavior
+## Expected behaviour
 A clear and concise description of what you expected to happen.
 ## Screenshots
 If applicable, add screenshots to help explain your problem.
