@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 	<head>
 		<!--<a href="https://jaszium.github.io/" target="_blank" id="base_url">-->
 		<!--<link type="image/icon type" rel="icon" href="path://to.your.github/profile/icon?v=4"/>-->
@@ -9,11 +9,11 @@
 		<meta charset="UTF-8"/>
 		<!--<meta name="author" content="{full_name_here_3_words_if_possible}"/>-->
 		<meta name="author" content="Jaszium Styrx Paralex"/>
-		<!--<meta name="description" content="">-->
+		<meta name="description" content="The homepage index of Jaszium's Teslarite Project, one of the 34+ projects being added to GitHub.">
 		<!--<meta name="keywords" content="{domain},{project_or_repo},{&etc}"/>-->
-		<meta name="keywords" content="Jaszium,Teslarite,Template"/>
+		<meta name="keywords" content="HTML, CSS, JavaScript, W3.css, Jaszium, Teslarite, Template"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<!--{unless_absolutely_required_<all_scripts>_need_to_be_called_just_before_closing_the_%body_element}-->
+		<!--{unless_absolutely_required_<all_scripts>_need_to_be_called_just_after_opening_the_%body_element}-->
 		<style>
 			a{
 				text-decoration:none;
@@ -27,10 +27,13 @@
 				background-color:white;
 			}
 		</style>
-		<!--<title>{username_or_domain_<ex:tld.country>} - {repo_or_project_scope}</title>-->
-		<title>Jaszium - Teslarite</title>
+		<!--<title>{username_or_domain_<ex:tld.country>} | {repo_or_project_scope} - {repo_or_project's_script_or_module}</title>-->
+		<title>Jaszium | Teslarite - Index</title>
 	</head>
 	<body>
+		<!--{unless_absolutely_required_<all_scripts>_need_to_be_called_just_after_opening_the_%body_element}-->
+		<!--{the_above_means_<exactly>_over_here}-->
+		<script src="script.js"></script>
 		<nav class="w3-sidebar w3-bar-block w3-border-right w3-animate-left" style="display:none" id="ʒsidebar">
 			<button onclick="w3_close()" class="w3-bar-item">Contents&emsp;&emsp;&emsp;&emsp; &ensp; &times;</button>
 			<!--<a class="w3-bar-item w3-button w3-hover-blue w3-pale-blue" href="path://to.homepage.here/">Home</a>-->
@@ -43,13 +46,13 @@
 			<a class="w3-bar-item w3-button w3-hover-blue w3-pale-blue" href="https://github.com/jaszium">Github - Jaszium</a>
 		</nav>
 		<!--<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="ʒoverlay"></div>-->
-		<div class="w3-row-padding w3-blue">
-			<div class="w3-quarter">
+		<div class="w3-row-padding w3-blue w3-animate-opacity">
+			<div class="w3-quarter" id="ʒtop">
 				<button onclick="w3_open()" class="w3-button w3-blue w3-xxlarge">☰</button>
 				<a href="https://jaszium.github.io/">
-					<!--<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="64">-->
+					<!--<img src="Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width=25%>-->
 					<!--<img src="on_same_path_if_possible_in_format.png" alt="domain | project logo" width="up_to_you">-->
-					<img src="https://jaszium.github.io/Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width=25%/>
+					<img src="https://jaszium.github.io/Ʒëße-full-bgα-fgBlack.png" alt="Ʒëße logo" width="64"/>
 				</a>
 			</div>
 			<div class="w3-half">
@@ -61,8 +64,19 @@
 				<h1 align="right"><i>January 14th, 2020</i></h1>
 			</div>
 		</div>
-		<div class="w3-row-padding w3-light-blue">
-			<div class="w3-threequarter">
+		<div class="w3-row-padding w3-light-blue w3-animate-opacity">
+			<div class="w3-quarter" align="center">
+				<h3><b>Contents</b></h3>
+				<div class="w3-bar">
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒtop">§ Top</a></h4>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒmän">§ Main</a></h4>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒǹtȩ">§ Notes</a></h4>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-pale-blue" href="#ʒend">§ End</a></h4>
+					<br/><br/>
+					<h4><a class="w3-bar-item w3-btn w3-hover-blue w3-light-blue" href="index.html">⌂&emsp;Home</a></h4>
+				</div>
+			</div>
+			<div class="w3-half" id="ʒmän">
 				<h2 align="center">
 					<!--{main_title_here_or_project_title_too}-->
 					.tema tis rolod muspi meroL
@@ -74,10 +88,10 @@
 					Maecenas porttitor congue massa.<br/>
 				</p>
 			</div>
-			<div class="w3-quarter">
+			<div class="w3-quarter" id="ʒǹtȩ">
 				<p align="center">
 					<!--{updates_on_page_<*.html>_statuses_here_or_comments_section_perhaps}-->
-					<!--{begin_with_#1:_and_increment_by1_&etc}-->
+					<!--{begin_with_#1:_and_increment_by_one_&etc}-->
 					#1: Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet
 					commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.<br/>
 					<br/>#2: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -85,9 +99,9 @@
 				</p>
 			</div>
 		</div>
-		<div class="w3-row-padding w3-light-blue">
-			<div class="w3-third">&nbsp;</div>
-			<div class="w3-third">
+		<div class="w3-row-padding w3-light-blue w3-animate-opacity">
+			<div class="w3-quarter">&nbsp;</div>
+			<div class="w3-half" id="ʒend">
 				<h3 align="center">
 					<!--{additional_<external>_urls_go_here_if_guest_<client>_needs_contact_info_&etc}-->
 					<!--{this_must_be_unique_to_<each>_page_or_used_as_a//an_<issues;reports;forums;bugfix;faq;requests>_url}-->
@@ -96,9 +110,9 @@
 					Github - jaszium/teslarite</a><br/>for more information.
 				</h3>
 			</div>
-			<div class="w3-third">&nbsp;</div>
+			<div class="w3-quarter">&nbsp;</div>
 		</div>
-		<div class="w3-row-padding w3-pale-blue">
+		<div class="w3-row-padding w3-pale-blue w3-animate-opacity">
 			<div class="w3-half">
 			<!--<h6 align="left"><b>{®_spelled_out_in_3_words}.</b><br><i>Courtesy of {abbr_company_name_<if_no_company_found:username>}-->
 				<!--,</i><br>{country_full}</h6>-->
@@ -112,14 +126,11 @@
 				<!--{if_github_is_the_word_before_circa,_replace_<raw:A subsidiary of>_with_<raw:An account on>}-->
 			</div>
 		</div>
-		<div class="w3-row-padding w3-pale-blue">
+		<div class="w3-row-padding w3-pale-blue w3-animate-opacity">
 			<h6 align="center">
-				<i>.eof</i><br/>(<code>èǹd`òf`fìlè</code>)<br/><i>Hosted on:
-				<a id="ghPages" href="https://pages.github.com/">Github Pages</a></i>
+				<i class="w3-tooltip">.eof&emsp;<span class="w3-text w3-animate-opacity">(<code>èǹd`òf`fìlè</code>)</span></i>
+				<br/><i>Hosted on <a id="ghPages" href="https://pages.github.com/">Github Pages</a></i>
 			</h6>
 		</div>
-		<!--{unless_absolutely_required_<all_scripts>_need_to_be_called_just_before_closing_the_%body_element}-->
-		<!--{the_above_means_<exactly>_over_here}-->
-		<script src="script.js"></script>
 	</body>
 </html>
